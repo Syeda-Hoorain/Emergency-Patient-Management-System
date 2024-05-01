@@ -13,19 +13,18 @@ The Emergency Patient Manager is a comprehensive application developed to stream
 - **Visualization:** Utilizes matplotlib.pyplot and networkx to visualize ward occupancy and build the max-heap structure within the GUI, providing users with a clear overview of emergency cases and ward status.
 
 ## Modular Structure
-- **Main File (GUI):** Runs the GUI interface and imports other Python files for seamless integration.
+- **GUI:** The main file responsible for running the graphical user interface, importing the Patient_records(operations module) for seamless integration, and facilitating user interaction.
 - **Max_Heap:** Implements the max-heap data structure for prioritizing emergency patients and performing operations like insertion, deletion, modification, and peeking.
 - **Heap_Visualization:** Utilizes matplotlib.pyplot and networkx to visualize the max-heap structure within the GUI, enhancing user understanding of ward occupancy and emergency case prioritization.
 - **Hashtable:** Manages hospital records using a hashtable data structure, ensuring efficient storage and retrieval of patient information.
-- **Patient_Records (Operations):** Handles all operations related to patient records, including reading, writing, and updating CSV files, as well as interfacing with the hashtable and max-heap modules.
-- **GUI:** The main file responsible for running the graphical user interface, importing the operations module, and facilitating user interaction.
-
+- **Patient_Records:** Handles all operations related to patient records, including reading, writing, and updating CSV files, as well as interfacing with the hashtable and max-heap modules.
+  
 ## Testing and Bug Handling
 - **Individual Module Testing:** Includes testing within each module to identify and rectify bugs, ensuring the reliability and stability of the application.
 - **Operation.csv:** Contains operations and corner case test cases to test the Patient_Records.py module independently, facilitating bug detection and resolution without needing to run the GUI.
 
 ## Future Enhancements
-- **Optimized Heap Sort:** Currently, the project employs a heap sort with O(n) time complexity. Future enhancements will involve implementing separate heap sorts for insertion and modification operations, achieving O(log n) capacity for more efficient sorting.
+- **Optimized Heap Sort:** Currently, the project employs a heap sort with O(n) time complexity due to the feature of mid heap item deletion. Future enhancements will involve implementing separate heap sorts for insertion and modification operations, achieving O(log n) capacity for more efficient sorting.
 - **Enhanced User Interface:** Continuously improve the GUI interface for better user experience and accessibility, incorporating user feedback and usability testing.
 
 ## Additional Future Enhancements
