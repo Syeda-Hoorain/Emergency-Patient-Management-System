@@ -1,0 +1,11 @@
+Admission Date,Severity,ID,First Name,Last Name,Sex,Age,Phone,Ward,Status
+07/11/2023,1,0,Shelby,Terrell,Male,10,001-084-906-7849,Surgery,Under Treatment
+20/12/2023,2,1,Phillip,Summers,Female,45,214.112.6044,Orthopedics,Under Treatment
+04/01/2024,3,2,Kristine,Travis,Male,64,-2426,Pediatrics,Under Treatment
+30/01/2024,4,3,Yesenia,Martinez,Male,2,001-447-699-7998,Cardiology,Under Treatment
+04/02/2024,5,4,Lori,Todd,Male,4,603-428-2429x27392,ICU,Under Treatment
+12/02/2024,6,5,Erin,Day,Male,53,689-207-3558x7233,ICU,Under Treatment
+29/02/2024,7,6,Katherine,Buck,Female,12,001-171-649-9856,Pediatrics,Under Treatment
+23/03/2024,8,7,Ricardo,Hinton,Male,37,277.609.7938,Surgery,Under Treatment
+30/03/2024,9,8,Dave,Farrell,Male,27,584.094.6111,Cardiology,Under Treatment
+01/04/2024,10,9,Isaiah,Downs,Male,13,-7608,Orthopedics,Under Treatment

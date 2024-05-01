@@ -1,0 +1,16 @@
+Operation,Key/Ward/Severity,Column Name/Frist Name,Data/Last Name,Sex,Age,Phone,Ward
+Find,0
+Find,5
+Find,7,First Name
+Update,7,Last Name,Umer
+Find,7,Last Name
+Delete,7,Discharged
+Find,7
+Delete,2,Deceased
+Delete,3,Discharged
+Delete,6,Deceased
+Delete,8,Discharged
+Delete,9,Deceased
+Delete,0,Discharged
+Add,10,Murtaza,Adeel,Male,56,483-284-2935,Surgery
+Add,1,Shelby,Terrell,Male,10,001-084-906-7849,Surgery
